@@ -1,0 +1,24 @@
+
+Codebook output dataset 
+
+Columns should be interpreted according to the following
+
+*subject* : numeric id of the person on which measurements where made
+*activity* :  activity being performed, possible values are "WALKING", 
+                                   "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
+                                   "STANDING","LAYING"
+
+In the measurement columns, we use the following conventions:
+
+*mean* : mean of the samples for this measurement
+*std* : std deviation of the sample for this measurement
+
+*time...* : measurement in the time domain
+*freq...* : measurement in the frequency domain, i.e. after Fourier transform
+
+*Ang.Velocity* : Angular velocity 
+
+All angular velocities are in units of 1/s  (second^-1)
+Accelarations are in units of 1/s^2
+Jerks are in units of 1/s^3
+ 
